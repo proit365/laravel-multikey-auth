@@ -68,6 +68,10 @@ The published v1.0.1 integration suite passed with 5 tests and 9 assertions,
 including an authenticated request that received HTTP 200 from the local
 Laravel test server. This loopback test is not a production HTTPS validation.
 
+## Development and production readiness
+
+> **Development status:** MKAP v1 remains under development and is not recommended for production use. Publication on Packagist and successful local Laravel integration tests do not constitute production certification; the loopback test does not validate a production HTTPS deployment. Client credential exports contain sensitive secret material and must be protected from unauthorized access. Cross-platform live interoperability and independent security review remain incomplete. Use this package for development, testing, and evaluation until the project’s production-readiness requirements are completed.
+
 ## Source and support
 
 Project website: [https://www.proit365.com](https://www.proit365.com).
